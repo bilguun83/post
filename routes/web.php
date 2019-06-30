@@ -43,3 +43,5 @@ Route::resource('posts', 'PostController');
 Auth::routes();
 Route::get('/export', 'TeachersController@export');
 Route::get('/dashboard', 'DashboardController@index');
+//Route::get('/tcreate', 'TestController@index');
+Route::resource('test', 'TestController');

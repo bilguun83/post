@@ -7,6 +7,7 @@ use App\Post;
 
 //SQL query ashiglah gej DB libraray duudav
 use DB;
+
 class PostController extends Controller
 {   
 
